@@ -1,5 +1,10 @@
 ## nanotest
 
+## gtk Error
+
+sudo apt install libcanberra-gtk-module libcanberra-gtk3-module
+
+
 # threshold
 
 cv2.threshold(img, threshold_value, value, flag)
