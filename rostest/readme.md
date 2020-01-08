@@ -12,8 +12,21 @@ sudo rosdep init
 
 rosdep update
 
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+
+source ~/.bashrc
 
 # workspace 만들기 
+
+## installcatkinws.sh 를 실행시키기 위해 권한을 바꾸고(1회) 실행시킨다.
+
+chmod 777 installcatkinws.sh
+
+./installcatkinws.sh
+
+## 확인
+
+ls ~/catkinws
 
 
 # pub sub 예제
