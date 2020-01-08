@@ -26,7 +26,7 @@ chmod 777 installcatkinws.sh
 
 ## 확인
 
-ls ~/catkinws
+ls ~/catkin_ws
 
 
 # pub sub 예제
