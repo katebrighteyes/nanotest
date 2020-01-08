@@ -11,3 +11,14 @@ sudo apt install ros-melodic-desktop
 sudo rosdep init
 
 rosdep update
+
+
+# workspace 만들기 
+
+
+# pub sub 예제
+
+cd ~/catkinws/src 
+
+catkin_create_pkg test_ros_pkg std_msgs rospy
+
