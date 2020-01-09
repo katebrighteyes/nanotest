@@ -52,3 +52,23 @@ cd ~/catkinws/src
 
 catkin_create_pkg test_ros_pkg std_msgs rospy
 
+# pub sub 실행
+
+## 돌려보기 : 3개의 터미널 창을 열어서 작업
+
+Terminal 1 : roscore 실행
+
+Terminal 2 : python topic_pub.py 실행
+
+Terminal 3 : python topic_sub.py 실행
+
+## Topic_pub노드와 topic_sub 노드간 메시지 흐름 확인 : 새로운 터미널 창을 열어서 작업
+
+$ rostopic list
+
+$ rostopic info /test_string   
+
+$ rostopic echo /test_string   
+
+$ rqt_graph 
+
