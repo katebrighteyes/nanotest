@@ -1,6 +1,7 @@
 # Darknet ROS Guide
 
-device : Jetson Nano + USB Camera + 5v 4A Adapter + jumper
+device 준비 :
+         Jetson Nano + USB Camera + 5v 4A Adapter + jumper
 
          Jetson TX2 + USB Camera
          
@@ -23,4 +24,6 @@ https://github.com/katebrighteyes/darknet_ros
 ## 참고) Ros 없는 Darknet 가이드
 
 https://github.com/katebrighteyes/darknet_jetson
+
+
 
